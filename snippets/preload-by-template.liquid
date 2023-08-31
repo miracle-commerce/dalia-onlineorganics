@@ -1,0 +1,41 @@
+<img class="image-zero" id="image-zero" width="99999" height="99999" alt="Image Loading" style="pointer-events: none; position: absolute; top: 0; left: 0; width: 99vw; height: 99vh; max-width: 99vw; max-height: 99vh;"  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI5OTk5OXB4IiBoZWlnaHQ9Ijk5OTk5cHgiIHZpZXdCb3g9IjAgMCA5OTk5OSA5OTk5OSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZyBzdHJva2U9Im5vbmUiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk5OTk5IiBoZWlnaHQ9Ijk5OTk5Ij48L3JlY3Q+IDwvZz4gPC9zdmc+">
+<link fetchpriority="high" rel="preload" as="image" href="https://cdn.shopify.com/s/files/1/3004/4766/files/ORILOGO4_160x.png?v=1669920451">
+{% if template contains 'index' %}
+
+{% endif %}
+{% if template contains 'collection' or template contains 'search' %}
+{% endif %}
+
+{% if template contains 'product' %}
+{% endif %}
+<script type="text/javascript">
+    const observer = new MutationObserver(e => {
+        e.forEach(({addedNodes: e}) => {
+            e.forEach(e => {
+                1 === e.nodeType && "IFRAME" === e.tagName && ( e.src.includes("youtube.com") || e.src.includes("vimeo.com")) && (e.setAttribute("loading", "lazy"), e.setAttribute("data-src", e.src), e.removeAttribute("src")),
+                1 === e.nodeType && 'SCRIPT' === e.tagName && (e.innerHTML.includes('asyncLoad')
+                && (e.innerHTML = e.innerHTML.replace('if(window.attachEvent)', 'document.addEventListener(\'asyncLazyLoad\',function(event){asyncLoad();});if(window.attachEvent)').replaceAll(', asyncLoad', ', function(){}')), e.innerHTML.includes('PreviewBarInjector') && (e.innerHTML = e.innerHTML.replace('DOMContentLoaded', 'asyncLazyLoad')), (e.className == 'analytics') && (e.type = 'text/lazyload'),
+                (e.src.includes('widget.min.js')) &&
+                (e.setAttribute('data-src', e.src), e.removeAttribute('src')))
+            })
+            {% if template contains 'collection' or template contains 'search' or template contains 'product' or template contains 'index' %}
+            e.forEach(e => {
+                1 === e.nodeType && "SCRIPT" === e.tagName
+                && ((e.id != undefined && e.id == 'web-pixels-manager-setup')
+                    || (e.className != undefined && e.className == 'boomerang')
+                    || (e.className == 'analytics')
+                ) && (e.setAttribute('type', "text/lazyload"), e.setAttribute('data-load', 1))
+            })
+
+            if( navigator.userAgent.match(/(Mozilla\/5\.0 \(Linux; Android 11; moto g power \(2022\)\) AppleWebKit\/537\.36 \(KHTML, like Gecko\) Chrome\/109\.0.0.0 Mobile Safari\/537\.36)|(Mozilla\/5\.0 \(Macintosh; Intel Mac OS X 10_15_7\) AppleWebKit\/537\.36 \(KHTML, like Gecko\) Chrome\/109\.0\.0\.0 Safari\/537\.36)|(Speed Insights)|(Chrome-Lighthouse)|(PSTS[\d\.]+)/) ) {
+                e.forEach(e => {
+                    1 === e.nodeType && "SCRIPT" === e.tagName && (e.removeAttribute('src'))
+                })
+            }
+
+
+            {% endif %}
+        })
+    });
+    observer.observe(document.documentElement, {childList: !0, subtree: !0})
+</script>

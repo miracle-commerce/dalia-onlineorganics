@@ -1,0 +1,66 @@
+{% schema %}
+{
+"name": "Video and Image",
+"class": "section-video-and-image",
+"settings": [
+{
+"id": "mobile_image",
+"type": "image_picker",
+"label": "Mobile Image"
+},
+{
+"id": "desktop_video",
+"type": "video",
+"label": "Desktop Video",
+"info": "Max file size is 2MB."
+}
+
+],
+"presets": [
+{
+"name": "Video and Image",
+"settings": {}
+}
+]
+}
+{% endschema %}
+<div class="section-video" style="min-height: 100px">
+{% if section.settings.desktop_video %}
+    <div class="desktop-video-wrapper">
+        {{ section.settings.desktop_video | media_tag: autoplay: true, loop: true, muted: true, controls: false, poster: false }}
+    </div>
+  <div class="mobile-image-wrapper">
+        <img src="{{ section.settings.mobile_image | img_url: '1000x' }}" alt="Mobile Image">
+    </div>
+{% elsif section.settings.mobile_image %}
+    <div class="desktop-image-wrapper" style="text-align: center;">
+        <img src="{{ section.settings.mobile_image | img_url: '1000x' }}" alt="Desktop Image">
+    </div>
+    <div class="mobile-image-wrapper">
+        <img src="{{ section.settings.mobile_image | img_url: '1000x' }}" alt="Mobile Image">
+    </div>
+{% endif %}
+</div>
+{% stylesheet %}
+.desktop-video-wrapper video {
+     width: 100%;
+}
+
+.mobile-image-wrapper {
+display: none;
+}
+
+@media (max-width: 767px) {
+.desktop-video-wrapper {
+display: none;
+}
+.desktop-image-wrapper {
+display: none;
+}
+
+.mobile-image-wrapper {
+display: block;
+text-align: center;
+}
+}
+{% endstylesheet %}

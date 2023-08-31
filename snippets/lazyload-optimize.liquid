@@ -1,0 +1,74 @@
+<script>
+    window.scriptTextDefer = [];
+    {% if template.name == 'collection' or template.name == 'index' or template.name == 'product' %}
+    window.scriptTextDefer = []
+    {% endif %}
+
+    {% if template.name == "index" %}
+    window.scriptDefer = [];
+    window.cssDefer = [];
+    {% endif %}
+
+    {% if template.name == "collection" or template.name == "search" %}
+    window.scriptDefer = [];
+    window.cssDefer = [];
+
+    {% endif %}
+
+    {% if template.name == "product" %}
+    window.scriptDefer = [];
+    window.cssDefer = [];
+    {% endif %}
+</script>
+<script>
+    (events => {
+        const loadMyLibrary = () => {
+            events.forEach(type => window.removeEventListener(type, loadMyLibrary))
+            var imageZero = document.getElementById("image-zero");
+            if (imageZero != null) {
+                imageZero.remove();
+            }
+
+            if (typeof window.listScriptShopifyLazyLoad != 'undefined') {
+                window.listScriptShopifyLazyLoad.forEach(appendScriptDefer);
+            }
+
+            if (typeof window.scriptDefer != 'undefined') {
+                window.scriptDefer.forEach(appendScriptDefer);
+            }
+            if (typeof window.scriptTextDefer != 'undefined') {
+                window.scriptTextDefer.forEach(appendScriptTextDefer);
+            }
+
+            if (typeof window.cssDefer != 'undefined') {
+                window.cssDefer.forEach(appendCssLinkElement);
+            }
+            if (window.previewBarInjector) {
+                window.previewBarInjector.init();
+            }
+        };
+        events.forEach(type => window.addEventListener(type, loadMyLibrary, {once: true, passive: true}))
+    })(['touchstart', 'mouseover', 'wheel', 'scroll', 'keydown'])
+
+    function appendScriptDefer(src) {
+        var js = document.createElement("script");
+        js.src = src;
+        js.type = 'text/javascript';
+        document.head.appendChild(js);
+    }
+
+    function appendScriptTextDefer(text) {
+        var js = document.createElement("script");
+        js.text = text;
+        js.type = 'text/lazyload';
+        document.head.appendChild(js);
+    }
+
+    function appendCssLinkElement(href) {
+        var link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.media = "print";
+        link.href = href;
+        document.body.appendChild(link);
+    }
+</script>

@@ -1,0 +1,123 @@
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "096b4989-3147-446e-a316-1b740bc8d2c4": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_display": "hidden",
+            "inventory_transfer_notice": true
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": false
+          }
+        },
+        "ab044748-f0c5-4a04-b3b8-5558bfb306d2": {
+          "type": "collapsible-tab",
+          "settings": {
+            "collapsible_tab_heading": "Specifications:",
+            "collapsible_tab_text": "<p><\/p><p><strong>Category: <\/strong><\/p><p>{{ product.metafields.custom.product_categories | metafield_tag }}<\/p><p><\/p><p><strong>Shelf Life:<\/strong><\/p><p>{{ product.metafields.custom.product_shelf_lives | metafield_tag }}<\/p><p><\/p><p><strong>Country of Origin:<\/strong><\/p><p>{{ product.metafields.custom.product_countries_of_origin | metafield_tag }}<\/p>"
+          }
+        },
+        "db9c4d3a-8ea5-487e-95ca-ef8c9f72d7a0": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.custom.product_cor_organic_canada_.value == true %}\n<img class=\"certifications--{{ block.id }} lazyload\"\n  src=\"{{ images['CanadaOrganic-Color-64px.jpg'] | img_url: '64x64'}}\" alt=\"Certified COR\"\n  data-src=\"{{ img_url }}\"\nwidth=\"64px\"\nheight=\"64px\">\n{% endif %}\n\n{% if product.metafields.custom.product_nop_organic_usa_.value == true %}\n<img class=\"certifications--{{ block.id }} lazyload\"\n  src=\"{{ images['USDA-Color-64px.jpg'] | img_url: '64x64'}}\" alt=\"Certified NOP\"\n  data-src=\"{{ img_url }}\"\nwidth=\"64px\"\nheight=\"64px\">\n{% endif %}\n\n{%- assign gluten_level_value = product.metafields.custom.product_gluten_contents.value | downcase | remove:\" \" -%}\n{%- case gluten_level_value -%}\n{%- when '[\"certifiedglutenfree\"]' -%}\n{% if request.locale.iso_code == 'fr' %}\n<img class=\"certifications--{{ block.id }} lazyload\"\n  src=\"{{ images['Gluten-Free-Certified-Color-Fr-64px.JPG'] | img_url: '64x64'}}\" alt=\"Certified Gluten Free\"\n  data-src=\"{{ img_url }}\"\nwidth=\"64px\"\nheight=\"64px\">\n{% else %}\n<img class=\"certifications--{{ block.id }} lazyload\"\n  src=\"{{ images['Gluten-Free-Certified-Color-En-64px.jpg'] | img_url: '64x64'}}\" alt=\"Certified Gluten Free\"\n  data-src=\"{{ img_url }}\"\nwidth=\"64px\"\nheight=\"64px\">\n{% endif %}\n{%- when '[\"naturallyglutenfree\"]' -%}\n{% if request.locale.iso_code == 'fr' %}\n<img class=\"certifications--{{ block.id }} lazyload\"\n  src=\"{{ images['Gluten-Free-Naturally-Color-Fr-64px.JPG'] | img_url: '64x64'}}\" alt=\"Naturally Gluten Free\"\n  data-src=\"{{ img_url }}\"\nwidth=\"64px\"\nheight=\"64px\">\n{% else %}\n<img class=\"certifications--{{ block.id }} lazyload\"\n  src=\"{{ images['Gluten-Free-Naturally-Color-En-64px.jpg'] | img_url: '64x64'}}\" alt=\"Naturally Gluten Free\"\n  data-src=\"{{ img_url }}\"\nwidth=\"64px\"\nheight=\"64px\">\n{% endif %}\n{%- when '[\"containsgluten\"]' -%} \n{% if request.locale.iso_code == 'fr' %}\n<img class=\"certifications--{{ block.id }} lazyload\"\n  src=\"{{ images['Contains-Gluten-Color-Fr-64px.JPG'] | img_url: '64x64'}}\" alt=\"Contains Gluten\"\nwidth=\"64px\"\nheight=\"64px\">\n{% else %}\n<img class=\"certifications--{{ block.id }} lazyload\"\n  src=\"{{ images['Contains-Gluten-Color-En-64px.jpg'] | img_url: '64x64'}}\" alt=\"Contains Gluten\"\n  data-src=\"{{ img_url }}\"\nwidth=\"64px\"\nheight=\"64px\">\n{% endif %}\n{%- endcase -%}\n\n{% if product.metafields.custom.product_kosher_.value == true %}\n<img class=\"certifications--{{ block.id }} lazyload\"\n  src=\"{{ images['Kosher-Color-64px.jpg'] | img_url: '64x64'}}\" alt=\"Kosher\"\n  data-src=\"{{ img_url }}\"\nwidth=\"64px\"\nheight=\"64px\">\n{% endif %}\n\n{% if product.metafields.custom.product_vegan_.value == true %}\n{% if request.locale.iso_code == 'fr' %}\n<img class=\"certifications--{{ block.id }} lazyload\"\n  src=\"{{ images['Vegan-Color-Fr-64px.JPG'] | img_url: '64x64'}}\" alt=\"Vegan\"\n  data-src=\"{{ img_url }}\"\nwidth=\"64px\"\nheight=\"64px\">\n{% else %}\n<img class=\"certifications--{{ block.id }} lazyload\"\n  src=\"{{ images['Vegan-Color-En-64px.jpg'] | img_url: '64x64'}}\" alt=\"Vegan\"\ndata-src=\"{{ img_url }}\"\nwidth=\"64px\"\nheight=\"64px\">\n{% endif %}\n{% endif %}"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor",
+        "rating",
+        "price",
+        "096b4989-3147-446e-a316-1b740bc8d2c4",
+        "form",
+        "ab044748-f0c5-4a04-b3b8-5558bfb306d2",
+        "db9c4d3a-8ea5-487e-95ca-ef8c9f72d7a0",
+        "description"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": false,
+        "gallery_thumbnail_position": "below",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "16871497571332d6ac": {
+      "type": "apps",
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "3eb984ad-b1c1-424c-9d12-4921c26868d3": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"stamped-main-widget\" \ndata-widget-type=\"standard\" \ndata-product-id=\"{{ product.id }}\" \ndata-name=\"{{ product.title | escape }}\" \ndata-url=\"{{ shop.url }}{{ product.url }}\"\ndata-image-url=\"{{ product.featured_image | product_img_url: \"large\" |replace: '?', '%3F' | replace: '&','%26'}}\"\ndata-description=\"{{ product.description | escape }}\"\ndata-product-sku=\"{{product.handle}}\"\ndata-widget-language =\"{{ request.locale.iso_code }}\"><\/div>"
+      }
+    },
+    "a603e8c7-02c7-49c4-82b9-e4ff200f43a1": {
+      "type": "dynamic-custom-liquid",
+      "custom_css": [
+        ".stamped-checkout-comment-footer {color: #595959 !important;}"
+      ],
+      "settings": {
+        "custom_liquid": "<div id=\"stamped-reviews-widget\" data-widget-type=\"checkout-comments\" data-product-ids=\"{{product.id}}\" data-style=\"bubble\" data-title=\"Why I Chose This:\" data-timeago=\"true\" data-style-color-text=\"#000000\" data-style-color-link=\"#595959\"\ndata-widget-language =\"{{ request.locale.iso_code }}\"><\/div>"
+      }
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "disabled": true,
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16871497571332d6ac",
+    "3eb984ad-b1c1-424c-9d12-4921c26868d3",
+    "a603e8c7-02c7-49c4-82b9-e4ff200f43a1",
+    "recommendations",
+    "recently-viewed"
+  ]
+}

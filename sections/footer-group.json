@@ -1,0 +1,47 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "static-footer",
+      "blocks": {
+        "caeddedf-01a3-4005-8ab6-abd2cd3c9d1e": {
+          "type": "social_accounts",
+          "settings": {
+          }
+        },
+        "static-footer-1": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Subscribe",
+            "text": ""
+          }
+        },
+        "b42cfdc3-3be6-4708-bd12-5302678a14b2": {
+          "type": "rich_text",
+          "settings": {
+            "title": "Rich text",
+            "text": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "caeddedf-01a3-4005-8ab6-abd2cd3c9d1e",
+        "static-footer-1",
+        "b42cfdc3-3be6-4708-bd12-5302678a14b2"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 719px) {.navmenu-item {padding-top: 8px; margin-top: 8px; margin-right: 8px; margin-left: 8px; margin-top: 8px; }}"
+      ],
+      "settings": {
+        "payment_icons": true,
+        "show_locale_selector": false,
+        "show_currency_selector": false,
+        "additional_menu": "footer"
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

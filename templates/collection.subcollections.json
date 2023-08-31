@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "static-subcollections-featured-collection",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

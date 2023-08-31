@@ -1,0 +1,105 @@
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement-bar": {
+      "type": "static-announcement",
+      "disabled": true,
+      "settings": {
+        "show_announcement": true,
+        "homepage_announcement": false,
+        "announcement_text": "Organic Spices - 48 Hour Flash Sale! - Promo Code \"SPICES10\"",
+        "announcement_text_mobile": "Organic Spices - 48 Hour Flash Sale! - Promo Code \"SPICES10\"",
+        "announcement_link": "https:\/\/mailchi.mp\/onlineorganics\/organic-spices-flash-sale",
+        "announcement_color": "#ffffff",
+        "announcement_background": "#dd1d1d"
+      }
+    },
+    "utility-bar": {
+      "type": "static-utility-bar",
+      "settings": {
+        "use_full_width": false,
+        "background_color": "#79ae38",
+        "link_color": "#ffffff",
+        "link_hover_color": "#ffffff",
+        "border_color": "rgba(0,0,0,0)",
+        "menu": "",
+        "show_menu_mobile": true,
+        "mobile_layout": "below",
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "show_social_icons": false
+      }
+    },
+    "header": {
+      "type": "static-header",
+      "blocks": {
+        "1517255946962": {
+          "type": "meganav_images",
+          "settings": {
+            "meganav_trigger": "",
+            "text_1": "",
+            "link_1": "",
+            "position_1": "last",
+            "size_1": "medium",
+            "text_2": "",
+            "link_2": "",
+            "position_2": "last",
+            "size_2": "medium"
+          }
+        },
+        "ff9e6854-1318-4c95-a027-c4108d1e961d": {
+          "type": "meganav_images",
+          "settings": {
+            "meganav_trigger": "",
+            "text_1": "",
+            "link_1": "",
+            "position_1": "last",
+            "size_1": "medium",
+            "text_2": "",
+            "link_2": "",
+            "position_2": "first",
+            "size_2": "small"
+          }
+        }
+      },
+      "block_order": [
+        "1517255946962",
+        "ff9e6854-1318-4c95-a027-c4108d1e961d"
+      ],
+      "custom_css": [
+        ".site-navigation a {font-weight: bold;}",
+        ".mobile-nav-content a {font-weight: bold;}",
+        ".site-navigation a[href=\"\/collections\/super-specials\"] {color: #b30000; font-weight: bold;}",
+        ".site-navigation a[href=\"\/fr\/collections\/super-specials\"] {color: #b30000;}",
+        ".mobile-nav-content a[href=\"\/collections\/super-specials\"] {color: #b30000;}",
+        ".mobile-nav-content a[href=\"\/fr\/collections\/super-specials\"] {color: #b30000;}"
+      ],
+      "settings": {
+        "sticky_header": true,
+        "full_width_header": true,
+        "logo": "shopify:\/\/shop_images\/OnlineOrganics-logo-250x88.jpg",
+        "logo_height": 100,
+        "logo_width": 250,
+        "filter_search_by": "disabled",
+        "enable_live_search": true,
+        "show_mobile_search_bar": true,
+        "enable_live_search_images": true,
+        "quick_links": "",
+        "menu": "main-menu",
+        "secondary_menu": "",
+        "small_promo_heading": "",
+        "small_promo_text": "",
+        "small_promo_text_mobile": "",
+        "small_promo_link": "",
+        "small_promo_icon": "none",
+        "cart_icon": "icon-cart"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "utility-bar",
+    "header"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "main": {
+      "type": "static-cart",
+      "settings": {
+        "show_sku": false,
+        "enable_order_notes": true,
+        "enable_shipping_calc": false,
+        "shipping_calc_default_country": "Canada"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

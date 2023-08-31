@@ -1,0 +1,200 @@
+{
+  "sections": {
+    "be6d5c76-dc07-4929-8e8e-7e2cf12d456d": {
+      "type": "image-and-video",
+      "settings": {
+        "mobile_image": "shopify:\/\/shop_images\/3to1-no-logo-thumb-mobile.jpg",
+        "desktop_video": "shopify:\/\/files\/videos\/3to1-no-logo-compressed.mp4"
+      }
+    },
+    "476ab43f-d6b9-4d50-bbcf-07dd65dfb329": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<p>OnlineOrganics aims to provide the best quality organic food at wholesale prices. We work to promote local producers and have a strong environmental conscience. We source our products directly from Organic certified importers and deliver them straight to you. We eliminate the middlemen for fresher and more affordable products.<br\/><br\/><strong>Why Buy Online?<\/strong><\/p><p>Did you know that food spend months on grocery store shelves waiting to be bought? Storing the food on these shelves at bright light and 21°C kills the aroma and nutritional value of the food you are paying so much for. Furthermore, the food is stored in non-airtight and non moisture proof bags that compound the problem. All our food is stored in bulk in a dark refrigerated and moisture controlled warehouse. The food you receive is thus fresher than anything you can find on grocery shelves. This translates to more nutrition and better taste.<br\/><br\/><strong>What Does Organic Mean?<\/strong><\/p><p>Organic certification requires that farmers and handlers document their processes and get inspected every year. Organic on-site inspections account for every component of the operation, including, but not limited to; seed sources, soil conditions, crop health, weed and pest management, water systems, inputs, contamination and commingling risks and prevention and record-keeping. Tracing organic products from start to finish is part of the organic promise.<br\/><br\/><strong>Organic Certified Products are Produced without the Use of:<\/strong><\/p><ul><li>Synthetic fertilizers (Only natural fertilizers are allowed such as manure)<br\/><\/li><li>Artificial Ingredients (Food colors, flavors, sweeteners, etc.)<br\/><\/li><li>Toxic and persistent pesticides<br\/><\/li><li>Genetic engineering or Genetically Modified Organisms (GMOs)<br\/><\/li><li>Irradiation<br\/><\/li><li>Preservatives and many other processing aids and ingredients in processed foods<br\/><\/li><li>Sewage sludge (Biosolids)<br\/><br\/><\/li><\/ul><p><strong>There are 4 General Principles of Organic Production:<\/strong><\/p><ol><li><em>Principle of Health: <\/em>Organic production should sustain and enhance the health of water, soil, plants, animals, humans and the planet as one and indivisible.<br\/><\/li><li><em>Principle of Ecology: <\/em>Organic production should be based on living ecological systems and cycles, work with them, emulate them and help sustain them.<br\/><\/li><li><em>Principle of Fairness: <\/em>Organic production should build on relationships that ensure fairness with regards to the common environment and life opportunities.<br\/><\/li><li><em>Principle of Care: <\/em>Organic production should be managed in a precautionary and responsible manner to protect the health and well-being of current and future generations and the environment.<br\/><\/li><\/ol><p><\/p><p>This is what we believe in and it is the reason we do this. Eating organic is about more than the actual products, it is about those 4 principles which guide our respect of the planet and all living things. You can read more about us and what we do as an Eco-responsible business in our About Us page.<\/p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "f65e0ae9-d2f0-4664-8f4b-3a9d2816f2d2": {
+      "type": "dynamic-featured-collection",
+      "settings": {
+        "title": "Our 2023 Best Sellers",
+        "layout": "grid",
+        "collection": "best-sellers",
+        "product_count": 11,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
+    },
+    "dynamic_collection_list": {
+      "type": "dynamic-collection-list",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "candies-snacks",
+            "title": ""
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "cans-jars",
+            "title": ""
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "cereals-grains-seeds",
+            "title": ""
+          }
+        },
+        "collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "chocolate-cocoa",
+            "title": ""
+          }
+        },
+        "collection-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "dried-fruit",
+            "title": ""
+          }
+        },
+        "collection-6": {
+          "type": "collection",
+          "settings": {
+            "collection": "flakes-puffed-grains",
+            "title": ""
+          }
+        },
+        "85c27725-c0f7-44e3-a487-fff0dffc7307": {
+          "type": "collection",
+          "settings": {
+            "collection": "flour",
+            "title": ""
+          }
+        },
+        "97e80f47-dd38-481c-b280-dd9f862df15b": {
+          "type": "collection",
+          "settings": {
+            "collection": "spices-seasoning-blends",
+            "title": ""
+          }
+        },
+        "4bc8eca1-b1af-488e-b7f0-491407a5a214": {
+          "type": "collection",
+          "settings": {
+            "collection": "nuts-butters",
+            "title": ""
+          }
+        },
+        "7d243ee5-7411-446e-80c4-d67f6d956465": {
+          "type": "collection",
+          "settings": {
+            "collection": "oil",
+            "image": "shopify:\/\/shop_images\/organic-extra-virgin-olive-oil-pile.jpg",
+            "title": ""
+          }
+        },
+        "0578021c-c607-4302-af16-07eb8180bd22": {
+          "type": "collection",
+          "settings": {
+            "collection": "pasta",
+            "title": ""
+          }
+        },
+        "8d42194b-2f6c-4e07-91cf-f4b1211d24b9": {
+          "type": "collection",
+          "settings": {
+            "collection": "powders",
+            "title": ""
+          }
+        },
+        "328c77b8-4b39-4d09-9e25-eaf9a5ec1431": {
+          "type": "collection",
+          "settings": {
+            "collection": "pulses-beans-lentils-peas",
+            "title": ""
+          }
+        },
+        "a581ec2f-1892-4bd8-9d24-87f1d2148173": {
+          "type": "collection",
+          "settings": {
+            "collection": "rice",
+            "image": "shopify:\/\/shop_images\/organic-red-jasmine-rice-pile_2b9d3454-4175-48ce-b259-c2bb948bc071.jpg",
+            "title": ""
+          }
+        },
+        "a4451d42-aa86-498e-ab81-5d62d3b4bf82": {
+          "type": "collection",
+          "settings": {
+            "collection": "salt",
+            "title": ""
+          }
+        },
+        "c91036ec-c3f3-4aac-9ac6-38cf080c1304": {
+          "type": "collection",
+          "settings": {
+            "collection": "sugar-syrups",
+            "title": ""
+          }
+        },
+        "cfe96ec2-a3bd-4e15-b433-439906e734f8": {
+          "type": "collection",
+          "settings": {
+            "collection": "tea",
+            "title": ""
+          }
+        },
+        "b84581fe-5722-477e-95af-003e8cb513c2": {
+          "type": "collection",
+          "settings": {
+            "collection": "others",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection-2",
+        "collection-3",
+        "collection-4",
+        "collection-5",
+        "collection-6",
+        "85c27725-c0f7-44e3-a487-fff0dffc7307",
+        "97e80f47-dd38-481c-b280-dd9f862df15b",
+        "4bc8eca1-b1af-488e-b7f0-491407a5a214",
+        "7d243ee5-7411-446e-80c4-d67f6d956465",
+        "0578021c-c607-4302-af16-07eb8180bd22",
+        "8d42194b-2f6c-4e07-91cf-f4b1211d24b9",
+        "328c77b8-4b39-4d09-9e25-eaf9a5ec1431",
+        "a581ec2f-1892-4bd8-9d24-87f1d2148173",
+        "a4451d42-aa86-498e-ab81-5d62d3b4bf82",
+        "c91036ec-c3f3-4aac-9ac6-38cf080c1304",
+        "cfe96ec2-a3bd-4e15-b433-439906e734f8",
+        "b84581fe-5722-477e-95af-003e8cb513c2"
+      ],
+      "settings": {
+        "title": "Categories",
+        "thumbnail_columns_desktop": 6,
+        "thumbnail_columns_mobile": 3,
+        "image-crop": "original",
+        "cta_label": "",
+        "cta_link": "",
+        "cta_button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "be6d5c76-dc07-4929-8e8e-7e2cf12d456d",
+    "476ab43f-d6b9-4d50-bbcf-07dd65dfb329",
+    "f65e0ae9-d2f0-4664-8f4b-3a9d2816f2d2",
+    "dynamic_collection_list"
+  ]
+}
