@@ -636,5 +636,17 @@
         }
       }
     }
+  },
+  "pricelist_pdf":{
+    "generate_pdf":"Télécharger notre liste de prix PDF",
+    "of":"de",
+    "updated":"Mise à jour",
+    "phone":"Téléphone",
+    "email":"Courriel",
+    "product":"Produit",
+    "weight":"Poids",
+    "price":"Prix",
+    "cant_find_text":"Vous ne trouvez pas ce que vous cherchez?",
+    "contact_text":"N'hésitez pas à nous contacter par courriel ou par téléphone, nous avons beaucoup plus de produits que nous pouvons commander pour vous!"
   }
 }

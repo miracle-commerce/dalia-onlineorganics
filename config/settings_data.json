@@ -218,6 +218,151 @@
         "type": "login",
         "settings": {
         }
+      },
+      "product-price-list": {
+        "type": "product-price-list",
+        "blocks": {
+          "e9cd0c52-4d95-410a-9e95-a413f0189825": {
+            "type": "collection",
+            "settings": {
+              "sort_collection": "candies-snacks"
+            }
+          },
+          "2f4bcbab-2839-4098-a54a-b1c2ca5bd298": {
+            "type": "collection",
+            "settings": {
+              "sort_collection": "cans-jars"
+            }
+          },
+          "e49637cd-5b2d-44d8-a52b-22f81b924721": {
+            "type": "collection",
+            "settings": {
+              "sort_collection": "cereals-grains-seeds"
+            }
+          },
+          "46c754ed-7942-4ba7-ae93-1fca783404ff": {
+            "type": "collection",
+            "settings": {
+              "sort_collection": "chocolate-cocoa"
+            }
+          },
+          "0292f87a-1324-4d54-8cba-5bff115bc72d": {
+            "type": "collection",
+            "settings": {
+              "sort_collection": "dried-fruit"
+            }
+          },
+          "7fe7be1a-f648-466f-b674-8db8714306c9": {
+            "type": "collection",
+            "settings": {
+              "sort_collection": "flakes-puffed-grains"
+            }
+          },
+          "7550ae62-f7f6-48d7-94bd-12acfe2ffc8c": {
+            "type": "collection",
+            "settings": {
+              "sort_collection": "flour"
+            }
+          },
+          "be34bc3b-01d7-4699-8bba-18ea8ee3e969": {
+            "type": "collection",
+            "settings": {
+              "sort_collection": "spices-seasoning-blends"
+            }
+          },
+          "a0f6188d-8a07-46d9-aa05-a8ea9a756906": {
+            "type": "collection",
+            "settings": {
+              "sort_collection": "nuts-butters"
+            }
+          },
+          "05b7e66d-cee3-4e68-9a5d-f419be774a46": {
+            "type": "collection",
+            "settings": {
+              "sort_collection": "oil"
+            }
+          },
+          "f098a58e-b97a-47e4-9a82-e437373d488c": {
+            "type": "collection",
+            "settings": {
+              "sort_collection": "others"
+            }
+          },
+          "1f8bff82-8f0f-46bc-8e11-33b522418e1c": {
+            "type": "collection",
+            "settings": {
+              "sort_collection": "pasta"
+            }
+          },
+          "a3cce133-ce24-4819-bb55-1566441d3dfe": {
+            "type": "collection",
+            "settings": {
+              "sort_collection": "powders"
+            }
+          },
+          "62b2183c-cda6-489b-9827-1ad4767a0fb1": {
+            "type": "collection",
+            "settings": {
+              "sort_collection": "protein-powders"
+            }
+          },
+          "48545933-3017-4708-b2b4-261bb720334c": {
+            "type": "collection",
+            "settings": {
+              "sort_collection": "pulses-beans-lentils-peas"
+            }
+          },
+          "5c620b7f-3527-4420-acbb-433d5ad4ef3e": {
+            "type": "collection",
+            "settings": {
+              "sort_collection": "rice"
+            }
+          },
+          "b32f1449-5bc6-4010-b70c-b4c4c4879c26": {
+            "type": "collection",
+            "settings": {
+              "sort_collection": "salt"
+            }
+          },
+          "f3c3547b-d13c-4f7a-accb-c4a560ee1ffc": {
+            "type": "collection",
+            "settings": {
+              "sort_collection": "sugar-syrups"
+            }
+          },
+          "d7dd66ab-92ef-400f-9a9b-6e226ea4d8de": {
+            "type": "collection",
+            "settings": {
+              "sort_collection": "tea"
+            }
+          }
+        },
+        "block_order": [
+          "e9cd0c52-4d95-410a-9e95-a413f0189825",
+          "2f4bcbab-2839-4098-a54a-b1c2ca5bd298",
+          "e49637cd-5b2d-44d8-a52b-22f81b924721",
+          "46c754ed-7942-4ba7-ae93-1fca783404ff",
+          "0292f87a-1324-4d54-8cba-5bff115bc72d",
+          "7fe7be1a-f648-466f-b674-8db8714306c9",
+          "7550ae62-f7f6-48d7-94bd-12acfe2ffc8c",
+          "be34bc3b-01d7-4699-8bba-18ea8ee3e969",
+          "a0f6188d-8a07-46d9-aa05-a8ea9a756906",
+          "05b7e66d-cee3-4e68-9a5d-f419be774a46",
+          "f098a58e-b97a-47e4-9a82-e437373d488c",
+          "1f8bff82-8f0f-46bc-8e11-33b522418e1c",
+          "a3cce133-ce24-4819-bb55-1566441d3dfe",
+          "62b2183c-cda6-489b-9827-1ad4767a0fb1",
+          "48545933-3017-4708-b2b4-261bb720334c",
+          "5c620b7f-3527-4420-acbb-433d5ad4ef3e",
+          "b32f1449-5bc6-4010-b70c-b4c4c4879c26",
+          "f3c3547b-d13c-4f7a-accb-c4a560ee1ffc",
+          "d7dd66ab-92ef-400f-9a9b-6e226ea4d8de"
+        ],
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Site-logo.jpg",
+          "page_title": "OnlineOrganics Pricelist",
+          "phone": "(514)-928-3663"
+        }
       }
     },
     "content_for_index": [

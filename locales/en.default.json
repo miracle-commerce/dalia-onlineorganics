@@ -634,5 +634,17 @@
         "no_rates_for_cart_or_destination_notice": "No shipping method is available online for your cart or address. Please email us at Sales@OnlineOrganics.ca so that we can send you a quote for shipping costs."
       }
     }
+  },
+  "pricelist_pdf":{
+    "generate_pdf":"Download our PDF Price List",
+    "of":"of",
+    "updated":"Updated",
+    "phone":"Phone",
+    "email":"Email",
+    "product":"Product",
+    "weight":"Weight",
+    "price":"Price",
+    "cant_find_text":"Can't find what you are looking for?",
+    "contact_text":"Don't hesitate to email or call us, we have much more products that we can order for you!"
   }
 }
